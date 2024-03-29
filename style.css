@@ -1,21 +1,16 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-/*제목에 대한 스타일*/
-h1 {
-    color: #0056b3;
-    margin-bottom: 20px;
-}
-p{
-    margin: 20px 0;
-}
-a{
-color: #d63447;
-text-decoration: none;
-}
+.container {
+    background-color: lightgray; /* 배경색을 추가하여 margin을 시각화 */
+    padding: 30px; /* container 주변에 공간 추가 */
+    border: 3px solid blue; /* border의 시각화를 위해 빨간색 테두리 추가 */
+  }
+  .box {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    margin-left: 20px; /* box 주변에 margin을 추가 */
+    border: 3px solid red; /* border의 시각화를 위해 빨간색 테두리 추가 */
+    padding: 20px; /* padding 추가 */
+  }
